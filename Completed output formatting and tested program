@@ -1,0 +1,13 @@
+string fullMorse = "";
+
+for (char ch : message)
+{
+    if (ch >= 'A' && ch <= 'Z')
+    {
+        fullMorse += morse[ch - 'A'];
+        fullMorse += "   ";
+    }
+}
+
+cout << "\nFull Morse code with spaces:\n";
+cout << fullMorse << endl;
