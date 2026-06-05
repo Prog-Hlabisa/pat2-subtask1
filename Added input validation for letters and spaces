@@ -1,0 +1,8 @@
+if (ch >= 'A' && ch <= 'Z')
+{
+    // translate
+}
+else if (ch == ' ')
+{
+    fullMorse += "    ";
+}
